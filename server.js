@@ -24,6 +24,7 @@ Student.findByIdAndDelete('66ec4eeb9337a59d8da67926').then(()=> {
  
 }).catch(err => {
     console.error('Failed to delete data');
+    //shanmugam
  
 });
 Student.find().then((students)=> {
