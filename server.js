@@ -31,7 +31,7 @@ Student.find().then((students)=> {
     console.log('Data fetched successfully');
     console.log(students[0].name);
 }).catch(err => {
-    console.error('error in fetching data');
+    
  
 });;
 app.listen(8000,()=> {
